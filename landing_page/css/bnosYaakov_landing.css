@@ -4,7 +4,7 @@ body {
 	width: 100%;
 	margin:0;
 	border:0;
-padding-top: 50px;
+	padding-top: 50px;
 	background-image: url('../images/school.jpeg');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -12,20 +12,40 @@ padding-top: 50px;
 
 }
 
+.BY-main {
+	height:1000px;
+	border: 1px solid red;
+	padding-top: -50px;	
+}
+
+.BY-logo {
+	width: 25px;
+}
+
 .seethrough{ 
 	border: none;
 	font-family: 'Roboto';
 	color: white;
-background: rgba(0, 54, 54, 0.5);
+	background: rgba(0, 54, 54, 0.5);
 }
 .navbar.navbar-default li a {
     color: white;
 }
 
+.BY-photo{
+	height: 300px;
+	border: 1px solid blue;
+}
 
+.BY-education{
+	border: 1px solid blue;
+	text-align: center;
+	font-size: 18px;
+	color: rgba(0, 54, 54, 0.5);
+}
 
-.BY-logo {
-	width: 25px;
+.education-icons{
+	font-size: 90px;
 }
 
 .BY-about{
@@ -48,4 +68,18 @@ background: rgba(0, 54, 54, 0.5);
 	height: 400px;
 	border: 1px solid red;
 }
+
+.col-xs-4.col-sm-4.col-md-4.col-lg-4{
+	border: 1px solid red;
+}
+
+.education .button{
+	padding: 8px;
+	background-color: rgba(0, 54, 54, 0.5);
+	color: white;
+	border-radius: 10px;
+}
+
+
+
 
