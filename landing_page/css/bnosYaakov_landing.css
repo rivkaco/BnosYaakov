@@ -1,1 +1,32 @@
 @font-face{font-family:'FontAwesome';src:url('font/fontawesome-webfont.eot?v=4.0.1');src:url('font/fontawesome-webfont.eot?#iefix&v=4.0.1') format('embedded-opentype'),url('font/fontawesome-webfont.woff?v=4.0.1') format('woff'),url('font/fontawesome-webfont.ttf?v=4.0.1') format('truetype'),url('font/fontawesome-webfont.svg?v=4.0.1#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}
+
+.BY-main{
+	border: 1px solid purple;
+}
+
+.BY-photo{
+	height: 300px;
+	border: 1px solid blue;
+}
+
+.BY-education{
+	border: 1px solid blue;
+	text-align: center;
+	font-size: 18px;
+	color: rgba(0, 54, 54, 0.5);
+}
+
+.education-icons{
+	font-size: 90px;
+}
+
+.col-xs-4.col-sm-4.col-md-4.col-lg-4{
+	border: 1px solid red;
+}
+
+.education .button{
+	padding: 8px;
+	background-color: rgba(0, 54, 54, 0.5);
+	color: white;
+	border-radius: 10px;
+}
