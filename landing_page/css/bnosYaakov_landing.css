@@ -14,7 +14,6 @@ body {
 
 .BY-main {
 	height:700px;
-	border: 1px solid red;
 	padding-top: -50px;	
 	width: 100%;
 }
@@ -41,9 +40,6 @@ body {
 /*}
 
 .BY-picturePromo {
-	border: solid green 1px;
-	
-
     max-width: 100%;
     height: auto;
 
@@ -82,7 +78,6 @@ img.BY-picturePromo
 
 .BY-photo{
 	height: 300px;
-	border: 1px solid blue;
 }
 
 .BY-education{
@@ -91,20 +86,31 @@ img.BY-picturePromo
 	padding-top: 5%;
 	padding-bottom: 5%;
 	background: white;
-	border: 1px solid blue;
 	text-align: center;
 	font-size: 18px;
 	color: rgba(0, 54, 54, 0.8);
 }
 
+.BY-education section{
+	padding: 3%;
+}
 
+.BY-education p{
+	margin-bottom: 3%;
+}
+
+.BY-education .button{
+	padding: 8px;
+	background-color: rgba(0, 54, 54, 0.8);
+	color: white;
+	border-radius: 10px;
+}
 .education-icons{
 	font-size: 90px;
 }
 
 .BY-about{
 	height: 300px;
-	border: 1px solid green;
 	background-color: white;
 	color: rgba(0, 54, 54, 0.5);
 	width: 100%;
@@ -137,16 +143,6 @@ img.BY-picturePromo
 
 }
 
-.col-xs-4.col-sm-4.col-md-4.col-lg-4{
-	border: 1px solid red;
-}
-
-.education .button{
-	padding: 8px;
-	background-color: rgba(0, 54, 54, 0.8);
-	color: white;
-	border-radius: 10px;
-}
 
 .BY-testimonials{
 	width: 100%;
@@ -156,7 +152,6 @@ img.BY-picturePromo
 	background-color: rgba(0, 54, 54, 0.8);
 	text-align: center;
 	font-family: 'Roboto';
-	/*font-size: 1.5vw;*/
 	color: rgb(255, 255, 255);
 }
 
