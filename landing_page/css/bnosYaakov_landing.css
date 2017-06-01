@@ -14,7 +14,6 @@ body {
 
 .BY-main {
 	height:700px;
-	border: 1px solid red;
 	padding-top: -50px;	
 	width: 100%;
 }
@@ -82,7 +81,6 @@ img.BY-picturePromo
 
 .BY-photo{
 	height: 300px;
-	border: 1px solid blue;
 }
 
 .BY-education{
@@ -91,7 +89,6 @@ img.BY-picturePromo
 	padding-top: 5%;
 	padding-bottom: 5%;
 	background: white;
-	border: 1px solid blue;
 	text-align: center;
 	font-size: 18px;
 	color: rgba(0, 54, 54, 0.8);
@@ -104,7 +101,6 @@ img.BY-picturePromo
 
 .BY-about{
 	height: 300px;
-	border: 1px solid green;
 	background-color: white;
 	color: rgba(0, 54, 54, 0.5);
 	width: 100%;
@@ -113,6 +109,14 @@ img.BY-picturePromo
   	display: flex;
   	justify-content: center;
   	align-items: center;
+}
+
+ hr {
+
+ 	   border: 0;
+    border-top: solid 1px #ddd;
+    margin: 0 1em 0 0;
+		padding: 0 1em 0 0;
 }
 
 .BY-aboutText {
@@ -137,9 +141,12 @@ img.BY-picturePromo
 
 }
 
-.col-xs-4.col-sm-4.col-md-4.col-lg-4{
-	border: 1px solid red;
+@media screen and (max-width: 500px) {
+  .missionStatement { 
+  	font-size: 2em;
+  }
 }
+
 
 .education .button{
 	padding: 8px;
