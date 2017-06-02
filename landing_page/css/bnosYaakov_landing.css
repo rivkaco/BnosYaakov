@@ -121,6 +121,13 @@ img.BY-picturePromo
   	align-items: center;
 }
 
+hr{
+	border: 0;
+    border-top: solid 1px #ddd;
+    margin: 0;
+	padding: 0;
+}
+
 .BY-aboutText {
   width: 700px;
   height: 100px;
@@ -140,9 +147,13 @@ img.BY-picturePromo
 	font-family: 'Roboto';
 	font-weight: 400;
 	font-size: 3em;
-
 }
 
+@media screen and (max-width: 500px) {
+  .missionStatement { 
+  	font-size: 2em;
+  }
+}
 
 .BY-testimonials{
 	width: 100%;
@@ -167,4 +178,11 @@ img.BY-picturePromo
 .BY-testimonials .carousel-control{
 	background: none;
 }
+
+/*.icon_title{
+	width: 20%
+	height: 20%;
+	padding: 5%;
+	background: #f39f4c;
+}*/
 
