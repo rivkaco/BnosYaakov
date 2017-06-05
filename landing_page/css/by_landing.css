@@ -11,6 +11,27 @@ body {
     background-attachment: fixed;
 
 }
+/*
+.navbar-fixed-top {
+    min-height: 80px;
+}
+
+.navbar-nav > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 80px;
+}
+
+@media (max-width: 767px) {
+    .navbar-nav > li > a {
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;}
+}*/
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #F29752;
+}
 
 .BY-main {
 	height:700px;
@@ -26,8 +47,9 @@ body {
 	border: none;
 	font-family: 'Roboto';
 	color: white;
-	background: rgba(0, 54, 54, 0.5);
+	background: rgba(38, 31, 84, 0.5);
 }
+
 .navbar.navbar-default li a {
     color: white;
 }
@@ -91,8 +113,10 @@ img.BY-picturePromo
 	background: white;
 	text-align: center;
 	font-size: 18px;
-	color: rgba(0, 54, 54, 0.8);
+	color: rgba(38, 31, 84, 0.8);
 }
+
+
 
 
 .education-icons{
@@ -102,7 +126,7 @@ img.BY-picturePromo
 .BY-about{
 	height: 300px;
 	background-color: white;
-	color: rgba(0, 54, 54, 0.5);
+	color: rgba(38, 31, 84, 0.8);
 	width: 100%;
 	text-align: center;
 	vertical-align: middle;
@@ -111,13 +135,15 @@ img.BY-picturePromo
   	align-items: center;
 }
 
- hr {
+hr
+	{
+		border: 0;
+		border-top: solid 1px #ddd;
+		margin: 0 0 0 0;
+		padding: 0 0 0 0;
+	}
 
- 	   border: 0;
-    border-top: solid 1px #ddd;
-    margin: 0 1em 0 0;
-		padding: 0 1em 0 0;
-}
+
 
 .BY-aboutText {
   width: 700px;
@@ -126,7 +152,7 @@ img.BY-picturePromo
 
 .BY-about .button{
 	padding: 8px;
-	background-color: rgba(0, 54, 54, 0.5);
+	background-color: rgba(38, 31, 84, 0.8);
 	color: white;
 	border-radius: 10px;
 	text-align: center;
@@ -150,7 +176,7 @@ img.BY-picturePromo
 
 .education .button{
 	padding: 8px;
-	background-color: rgba(0, 54, 54, 0.8);
+	background-color: rgba(38, 31, 84, 0.8);
 	color: white;
 	border-radius: 10px;
 }
@@ -160,7 +186,7 @@ img.BY-picturePromo
 	height: 100%;
 	padding-top: 2%;
 	padding-bottom: 2%;
-	background-color: rgba(0, 54, 54, 0.8);
+	background-color: rgba(038, 31, 84, 0.8);
 	text-align: center;
 	font-family: 'Roboto';
 	/*font-size: 1.5vw;*/
@@ -178,5 +204,33 @@ img.BY-picturePromo
 
 .BY-testimonials .carousel-control{
 	background: none;
+}
+
+
+.BY-donate {
+	background-color: rgb(255, 255, 255);
+	height: 300px;
+	width: 100%;
+	text-align: center;
+	vertical-align: middle;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+
+
+.BY-donateText {
+  width: 700px;
+  height: 100px;
+}
+
+.BY-donate .button{
+	padding: 8px;
+	background-color: rgba(38, 31, 84, 0.8);
+	color: white;
+	border-radius: 10px;
+	text-align: center;
+/*	margin: 0 auto;
+*/
 }
 
