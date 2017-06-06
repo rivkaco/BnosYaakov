@@ -19,6 +19,8 @@ body {
     background-attachment: fixed;
     font-family: 'Roboto';
 }
+
+/******************************************** navbar *******************************************************************/
 /*
 .navbar-fixed-top {
     min-height: 80px;
@@ -68,13 +70,6 @@ background: rgba(38, 31, 84, 0.7);
     color: white;
 }
 
-
-.BY-main {
-	height:700px;
-	padding-top: -50px;	
-	width: 100%;
-}
-
 .BY-logo {
 	width: 25px;
 }
@@ -103,6 +98,14 @@ background: rgba(38, 31, 84, 0.7);
     height: auto;
 
 }*/
+
+/******************************************** end of navbar *******************************************************************/
+
+.BY-main {
+	height:700px;
+	padding-top: -50px;	
+	width: 100%;
+}
 
 img.BY-picturePromo:empty
 {

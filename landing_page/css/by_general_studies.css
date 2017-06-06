@@ -8,16 +8,35 @@
 
 @font-face{font-family:'FontAwesome';src:url('font/fontawesome-webfont.eot?v=4.0.1');src:url('font/fontawesome-webfont.eot?#iefix&v=4.0.1') format('embedded-opentype'),url('font/fontawesome-webfont.woff?v=4.0.1') format('woff'),url('font/fontawesome-webfont.ttf?v=4.0.1') format('truetype'),url('font/fontawesome-webfont.svg?v=4.0.1#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}
 
-body{
-	padding: 10%;
-	font-family: 'Roboto', Arial;
-	text-align: justify;
-
-	color: #261F54;
-	background: #F7ECEE;
+body {
+	width: 100%;
+	margin:0;
+	border:0;
+	padding-top: 50px;
+    font-family: 'Roboto';
 }
 
 /******************************************** navbar *******************************************************************/
+/*
+.navbar-fixed-top {
+    min-height: 80px;
+}
+
+.navbar-nav > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 80px;
+}
+
+@media (max-width: 767px) {
+    .navbar-nav > li > a {
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;}
+}*/
+
+
+
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     color: #F29752;
 
@@ -47,13 +66,6 @@ background: rgba(38, 31, 84, 0.7);
     color: white;
 }
 
-
-.BY-main {
-	height:700px;
-	padding-top: -50px;	
-	width: 100%;
-}
-
 .BY-logo {
 	width: 25px;
 }
@@ -63,8 +75,6 @@ background: rgba(38, 31, 84, 0.7);
 	font-family: 'Roboto';
 	color: white;
 	background: rgba(38, 31, 84, 0.5);
-/*	font-size: 2vw;
-*/
 }
 
 .nav .dropdown-toggle .caret { 
@@ -84,68 +94,4 @@ background: rgba(38, 31, 84, 0.7);
 
 }*/
 
-img.BY-picturePromo:empty
-{
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	-moz-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	-o-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-}
-
-img.BY-picturePromo
-{
-	width: 45vw;
-	position: absolute;
-	max-width: 80%;
-	top: 10%;
-	left: 10%;
-	/*border-radius: 3px;
-	box-shadow: 0 3px 6px rgba(0,0,0,0.9);*/
-}
-
-
-@media screen and (orientation: portrait) {
-  img.BY-picturePromo { max-width: 90%; }
-}
-
-@media screen and (orientation: landscape) {
-  img.BY-picturePromo { max-height: 90%; }
-}
-
-.BY-photo{
-	height: 300px;
-}
-
 /******************************************** end of navbar *******************************************************************/
-
-.BY-testimonials{
-	background-image: url('../images/back.png');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-
-}
-
-.BY-testimonials .title{
-	font-family: 'Parisienne', cursive;
-	text-align: center;
-	font-size: 3.5em;
-	margin-bottom: 5%;
-	padding-top: 3%;
-}
-
-.BY-testimonials img{
-	height: 20%;
-	width: 20%;
-	opacity: 0.5;
-	margin-left: 80%;
-}
-
-.BY-testimonials .author{
-	font-style: italic;
-	margin-bottom: 5%;
-}
-
