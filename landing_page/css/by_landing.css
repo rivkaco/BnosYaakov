@@ -43,31 +43,34 @@ body {
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     color: #F29752;
-
 }
 
 .dropdown #drop1:hover{
+	background: rgba(67,124,144, 0.4);
 	color: #F29752;
-	background: rgba(38, 31, 84, 0.3);
 }
 
 .open #drop1{
+	background: rgba(67,124,144, 0.4);
 	color: #F29752;
-background: rgba(38, 31, 84, 0.3);}
+}
 
 
 .dropdown-menu > li > a:hover{
-    background-color: rgba(38, 31, 84, 0.2);
+    background-color: rgba(67,124,144, 0.3);
     color: #F29752;
-
 }
 
 .dropdown-menu {
-background: rgba(38, 31, 84, 0.7);
+	background: rgba(67,124,144, 0.7);
 }
 
 .navbar.navbar-default li a {
     color: white;
+}
+
+.navbar.navbar-default li a:hover {
+	color: #F29752;
 }
 
 .BY-logo {
@@ -78,7 +81,7 @@ background: rgba(38, 31, 84, 0.7);
 	border: none;
 	font-family: 'Roboto';
 	color: white;
-	background: rgba(38, 31, 84, 0.5);
+	background: rgba(67,124,144, 0.6);
 /*	font-size: 18px;
 */}
 
@@ -145,7 +148,7 @@ img.BY-picturePromo
 .BY-about{
 	height: 400px;
 	background-color: white;
-	color: rgba(38, 31, 84, 0.8);
+	color: rgba(67,124,144, 0.8);
 	width: 100%;
 	text-align: center;
 	vertical-align: middle;
@@ -161,7 +164,7 @@ img.BY-picturePromo
 
 .BY-about .button{
 	padding: 8px;
-	background-color: rgba(38, 31, 84, 0.8);
+	background-color: rgba(67,124,144, 0.8);
 	color: white;
 	border-radius: 10px;
 	text-align: center;
@@ -196,7 +199,8 @@ hr{
 	background: white;
 	text-align: center;
 	font-size: 18px;
-	color: rgba(38, 31, 84, 0.8);
+	color: rgba(67,124,144, 0.8);
+	color: rgba(242,151,82,0.8);
 }
 
 .BY-education section{
@@ -210,13 +214,15 @@ hr{
 
 .BY-education .education .button{
 	padding: 8px;
-	background-color: rgba(38, 31, 84, 0.8);
+	background-color: rgba(67,124,144, 0.8);
+	background-color: rgba(242,151,82,0.8); 
 	color: white;
 	border-radius: 10px;
 }
 
 .BY-education .education-icons{
 	font-size: 90px;
+	/*color: rgba(242,151,82,0.8);*/
 }
 
 .BY-testimonials{
@@ -224,7 +230,7 @@ hr{
 	height: 100%;
 	padding-top: 2%;
 	padding-bottom: 2%;
-	background-color: rgba(038, 31, 84, 0.8);
+	background-color: rgba(67,124,144, 0.8);
 	text-align: center;
 	font-family: 'Roboto';
 	color: rgb(255, 255, 255);
@@ -265,13 +271,13 @@ hr{
 .BY-donateText {
   width: 700px;
   height: 100px;
-  color: rgb(38, 31, 84);
+  color: rgb(67,124,144);
 
 
 }
 .donate-button{
   text-decoration: none;
-	color: rgb(38, 31, 84);
+	color: rgb(67,124,144);
 	text-align: center;
     display: inline-block;
     font-size: 38px;
@@ -281,7 +287,7 @@ hr{
 
 .donate-button:hover{
 	text-decoration: underline;
-	color: rgb(38, 31, 84);
+	color: rgb(67,124,144);
 	text-align: center;
     display: inline-block;
     font-size: 40px;
@@ -340,7 +346,7 @@ hr{
 	background: #dfdcdc;
 	padding: 0.8%;
 	padding-left: 8%;
-	color: #261F54;
+	color: #437C90;
 	font-size: 1em;
 }
 
