@@ -21,12 +21,34 @@ body {
 }
 
 /******************************************** navbar *******************************************************************/
+<<<<<<< HEAD
+=======
+/*
+.navbar-fixed-top {
+    min-height: 80px;
+}
+
+.navbar-nav > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 80px;
+}
+
+@media (max-width: 767px) {
+    .navbar-nav > li > a {
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;}
+}
+*/
+/*
+>>>>>>> bb05193265794c9834027c8652c5fa1288a57dee
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     color: #F29752;
-}
+}*/
 
-.dropdown #drop1:hover{
+/*.dropdown #drop1:hover{
 	background: rgba(67,124,144, 0.4);
 	color: #F29752;
 }
@@ -43,15 +65,15 @@ body {
 
 .dropdown-menu {
 	background: rgba(67,124,144, 0.7);
-}
+}*/
 
-.navbar.navbar-default li a {
+/*.navbar.navbar-default li a {
     color: white;
-}
+}*/
 
-.navbar.navbar-default li a:hover {
+/*.navbar.navbar-default li a:hover {
 	color: #F29752;
-}
+}*/
 
 .BY-logo {
 	width: 25px;
@@ -64,9 +86,13 @@ body {
 	background: rgba(67,124,144, 0.6);
 }
 
-.nav .dropdown-toggle .caret { 
+
+
+
+
+/*.nav .dropdown-toggle .caret { 
 	display:none; 
-}
+}*/
 
 .navLink .subMenu {
     display: none;
@@ -185,8 +211,8 @@ hr{
 	text-align: center;
 	font-size: 18px;
 	color: rgba(67,124,144, 0.8);
-	color: rgba(242,151,82,0.8);
-}
+/*	color: rgba(242,151,82,0.8);
+*/}
 
 .BY-education section{
 	padding: 3%;
@@ -200,13 +226,14 @@ hr{
 .BY-education .education .button{
 	padding: 8px;
 	background-color: rgba(67,124,144, 0.8);
-	background-color: rgba(242,151,82,0.8); 
 	color: white;
 	border-radius: 10px;
 }
 
 .BY-education .education-icons{
 	font-size: 90px;
+color: rgba(242,151,82,0.8); 
+
 	/*color: rgba(242,151,82,0.8);*/
 }
 
