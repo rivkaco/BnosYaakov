@@ -10,62 +10,44 @@
 
 body{
 	font-family: 'Roboto', Arial;
-/*	text-align: justify;
-*/	color: white;
+	/*text-align: justify;*/
+	color: white; 
 }
 
-/*.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color: #F29752;
-}
-
-.navbar.navbar-default li a {
-    color: white;
-}
-
-.BY-testimonials .author{
-	font-style: italic;
-	margin-bottom: 5%;
-}
-
-*/
+/******************************************** navbar *******************************************************************/
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     color: #F29752;
-
 }
 
-/*.dropdown #drop1:hover{
+.dropdown #drop1:hover{
+	background: rgba(67,124,144, 0.4);
 	color: #F29752;
-	background: rgba(38, 31, 84, 0.3);
 }
 
 .open #drop1{
+	background: rgba(67,124,144, 0.4);
 	color: #F29752;
-background: rgba(38, 31, 84, 0.3);}
+}
 
 
 .dropdown-menu > li > a:hover{
-    background-color: rgba(38, 31, 84, 0.2);
+    background-color: rgba(67,124,144, 0.3);
     color: #F29752;
-
 }
 
 .dropdown-menu {
-background: rgba(38, 31, 84, 0.7);
+background: rgba(67,124,144, 0.8);
+color: #F29752;
 }
-
-
-*/
 
 .navbar.navbar-default li a {
     color: white;
 }
 
-.BY-main {
-	padding-top: 50px;	
-	width: 100%;
+.navbar.navbar-default li a:hover {
+	color: #F29752;
 }
-
 .BY-logo {
 	width: 25px;
 }
@@ -74,25 +56,13 @@ background: rgba(38, 31, 84, 0.7);
 	border: none;
 	font-family: 'Roboto';
 	color: white;
-	background: rgba(38, 31, 84, 0.5);
-}
+	background: rgba(67,124,144, 0.6);
+/*	font-size: 18px;
+*/}
 
 .nav .dropdown-toggle .caret { 
 	display:none; 
 }
-
-/*
-.BY-fullLogo {
-	/*position: absolute;
-	float: left;*/
-
-/*}
-
-.BY-picturePromo {
-    max-width: 100%;
-    height: auto;
-
-}*/
 
 img.BY-picturePromo:empty
 {
@@ -129,33 +99,41 @@ img.BY-picturePromo
 	height: 300px;
 }
 
+/******************************************** end of navbar *******************************************************************/
 
 
-.BY-about {
+/*.BY-about {
 	width: 100%;
-}
+}*/
 
+.colour1 {
+	background-color: #437C90;
+	background-color: rgba(67,124,144, 0.8);
+	/*background-image: url('../images/back2.png');
+	background-size: cover;
+	background-repeat: no-repeat;*/
+}
+.colour2 {
+	background-color: #F29752;
+	background-color: rgba(242,151,82,0.8);
+	/*background-image: url('../images/back.png');*/
+}
 
 .one-mission {
-	border: 1px solid black;
-	height: 500px;
-	background-color: green;
+	/*border: 1px solid white;*/
+	padding: 1px;
+	padding-bottom: 3%;
+	/*height: 500px;*/
 }
-
 .whole-mission {
 	width: 90%;
 	margin-left: 5%;
-	
 }
-
 .line-BY{
 	border: 10px solid white;
 	margin-bottom: 60px;
 	margin-top: 80px;
 }
-
-
-
 .number-border {
 	border: solid white 15px;
 	display: inline-block;
@@ -163,11 +141,10 @@ img.BY-picturePromo
 	padding-right: 35px;
 	padding-top: 0;
 	padding-bottom: 30px;
+	padding: 16px 20px;
 	color: white;
 	font-size: 40px;
 	float: left;
-
-
 }
 .mission-main{
 	display: inline-block;
@@ -175,74 +152,40 @@ img.BY-picturePromo
 	margin-left: 5%;
 	width: 65%;
 }
-
 .to-mission{
-
-		font-size: 6vh;
-		font-weight: 600;
-/*		align-content: flex-end;
-*//*		line-height: 100px;
-*/
+	font-size: 6vh;
+	font-weight: 600;
+	/*align-content: flex-end;*/
+	/*line-height: 100px;*/
+	font-family: 'Parisienne', cursive;
 }
 .text-mission{
-	font-size: 32px;
+	font-size: 3.5vh;
 }
 
 @media only screen and (max-width: 965px) {
-    .one-mission {
+    /*.one-mission {
         height: 600px;
-    }
-
+    }*/
     .text-mission{
 	font-size: 24px;
-
-}
-}
-
-.colour1 {
-	background-color: blue;
+	}
 }
 
-
-
-.colour2 {
-	background-color: pink;
+@media only screen and (max-width: 965px) {
+    /*.longest-BY {
+        height: 760px;
+    }*/
+    .text-mission{
+	font-size: 3vh;
+	}
 }
 
+
+/*
 .longest-BY {
 	height: 620px;
 }
-
-
-@media only screen and (max-width: 965px) {
-    .longest-BY {
-        height: 760px;
-    }
-
-    .text-mission{
-	font-size: 24px;
-
-
-}
-}
-/*
-
-
-
-
-
-
-
-
-
-
-
 .endorsement-ltr{
 	height: 500px;
-}
-
-
-
-
-
-*/
+}*/
