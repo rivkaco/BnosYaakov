@@ -39,13 +39,13 @@ body {
     padding-bottom: 10px;}
 }
 */
-
+/*
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     color: #F29752;
-}
+}*/
 
-.dropdown #drop1:hover{
+/*.dropdown #drop1:hover{
 	background: rgba(67,124,144, 0.4);
 	color: #F29752;
 }
@@ -63,15 +63,15 @@ body {
 
 .dropdown-menu {
 	background: rgba(67,124,144, 0.7);
-}
+}*/
 
-.navbar.navbar-default li a {
+/*.navbar.navbar-default li a {
     color: white;
-}
+}*/
 
-.navbar.navbar-default li a:hover {
+/*.navbar.navbar-default li a:hover {
 	color: #F29752;
-}
+}*/
 
 .BY-logo {
 	width: 25px;
@@ -85,9 +85,13 @@ body {
 /*	font-size: 18px;
 */}
 
-.nav .dropdown-toggle .caret { 
+
+
+
+
+/*.nav .dropdown-toggle .caret { 
 	display:none; 
-}
+}*/
 
 /*
 .BY-fullLogo {
@@ -200,8 +204,8 @@ hr{
 	text-align: center;
 	font-size: 18px;
 	color: rgba(67,124,144, 0.8);
-	color: rgba(242,151,82,0.8);
-}
+/*	color: rgba(242,151,82,0.8);
+*/}
 
 .BY-education section{
 	padding: 3%;
@@ -215,13 +219,14 @@ hr{
 .BY-education .education .button{
 	padding: 8px;
 	background-color: rgba(67,124,144, 0.8);
-	background-color: rgba(242,151,82,0.8); 
 	color: white;
 	border-radius: 10px;
 }
 
 .BY-education .education-icons{
 	font-size: 90px;
+color: rgba(242,151,82,0.8); 
+
 	/*color: rgba(242,151,82,0.8);*/
 }
 
