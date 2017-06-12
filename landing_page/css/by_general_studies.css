@@ -129,15 +129,7 @@ img.BY-picturePromo
 	background-position: center;
 }
 
-.BY-general .title-edu{
-	font-family: 'Parisienne', cursive;
-	text-align: center;
-	font-size: 3.5em;
-	margin-bottom: 5%;
-	padding-top: 3%;
-	/*color: #437C90;
-	color: #F29752;
-}
+
 
 
 .BY-general h4{
@@ -145,6 +137,16 @@ img.BY-picturePromo
 	/*margin-bottom: 5%;
 	padding-top: 3%;*/
 
+/*}*/
+
+
+.BY-general .title-edu{
+	font-family: 'Parisienne', cursive;
+	text-align: center;
+	font-size: 3.5em;
+	margin-bottom: 5%;
+	padding-top: 3%;
+	color: #F29752;
 }
 
 .BY-general h2{
@@ -170,8 +172,4 @@ img.BY-picturePromo
 
 
 
-.BY-general .author{
-	font-style: italic;
-	margin-bottom: 5%;
-}
 

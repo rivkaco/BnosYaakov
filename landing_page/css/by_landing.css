@@ -18,43 +18,15 @@ body {
 	background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: 'Roboto';
-    color: white;
 }
 
 /******************************************** navbar *******************************************************************/
 
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color: #F29752;
-}
-
-.dropdown #drop1:hover{
-	background: rgba(67,124,144, 0.4);
-	color: #F29752;
-}
-
-.open #drop1{
-	background: rgba(67,124,144, 0.4);
-	color: #F29752;
-}
-
-
-.dropdown-menu > li > a:hover{
-    background-color: rgba(67,124,144, 0.3);
-    color: #F29752;
-}
-
-.dropdown-menu {
-background: rgba(67,124,144, 0.8);
-color: #F29752;
-}
-
-.navbar.navbar-default li a {
+.navbar a {
     color: white;
 }
 
-.navbar.navbar-default li a:hover {
-	color: #F29752;
-}
+
 .BY-logo {
 	width: 25px;
 }
@@ -64,12 +36,54 @@ color: #F29752;
 	font-family: 'Roboto';
 	color: white;
 	background: rgba(67,124,144, 0.6);
-/*	font-size: 18px;
-*/}
+}
+
+
 
 .nav .dropdown-toggle .caret { 
 	display:none; 
 }
+
+
+
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+
+.navbar.navbar-static.navbar-fixed-top li > a:hover {
+    color: #F29752;
+    background-color: transparent;
+}
+
+.dropdown #drop1:hover{
+	background: rgba(67,124,144, 0.4);
+	color: #F29752;
+}
+
+.open #drop1{
+	background: rgba(67,124,144, 0.4);
+}
+
+
+.dropdown-menu > li > a:hover{
+    background-color: rgba(67,124,144, 0.3);
+    color: #F29752;
+}
+
+
+.dropdown-menu > li > a{
+    background-color: rgba(67,124,144, 0.3);
+    color: white;
+}
+
+.dropdown-menu {
+background: rgba(67,124,144, 0.8);
+color: #F29752;
+}
+
+
+
 
 /******************************************** end of navbar *******************************************************************/
 
@@ -354,17 +368,4 @@ color: rgba(242,151,82,0.8);
    -ms-transform: scale(1);
    transform: scale(1);
  }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
