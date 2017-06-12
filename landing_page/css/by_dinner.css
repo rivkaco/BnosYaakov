@@ -1,0 +1,126 @@
+/*
+#F29752 orange
+#F7ECEE almost white
+#D5C6E0 light purple
+#261F54 dark purple
+#437C90 blue
+*/
+
+@font-face{font-family:'FontAwesome';src:url('font/fontawesome-webfont.eot?v=4.0.1');src:url('font/fontawesome-webfont.eot?#iefix&v=4.0.1') format('embedded-opentype'),url('font/fontawesome-webfont.woff?v=4.0.1') format('woff'),url('font/fontawesome-webfont.ttf?v=4.0.1') format('truetype'),url('font/fontawesome-webfont.svg?v=4.0.1#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}
+
+body{
+	padding: 10%;
+	font-family: 'Roboto', Arial;
+	text-align: justify;
+	/*color: #261F54;*/
+	color: #006064;
+	/*background: #FAF0E6;*/
+	background: #F5FFFA;
+	text-align: center;
+
+}
+
+/******************************************** navbar *******************************************************************/
+
+/*.navbar-fixed-top {
+    min-height: 80px;
+}
+
+.navbar-nav > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 80px;
+}*/
+
+/*@media (max-width: 767px) {
+    .navbar-nav > li > a {
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;}
+}*/
+
+
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #F29752;
+}
+
+.dropdown #drop1:hover{
+	background: rgba(67,124,144, 0.4);
+	color: #F29752;
+}
+
+.open #drop1{
+	background: rgba(67,124,144, 0.4);
+	color: #F29752;
+}
+
+
+.dropdown-menu > li > a:hover{
+    background-color: rgba(67,124,144, 0.3);
+    color: #F29752;
+}
+
+.dropdown-menu {
+background: rgba(67,124,144, 0.8);
+color: #F29752;
+}
+
+.navbar.navbar-default li a {
+    color: white;
+}
+
+.navbar.navbar-default li a:hover {
+	color: #F29752;
+}
+.BY-logo {
+	width: 25px;
+}
+
+
+.seethrough{ 
+	border: none;
+	font-family: 'Roboto';
+	color: white;
+	background: rgba(67,124,144, 0.6);
+}
+
+.nav .dropdown-toggle .caret { 
+	display:none; 
+}
+
+
+
+/******************************************** end of navbar ******************************************************************/
+
+.BY-dinner .title-din{
+	font-family: 'Parisienne', cursive;
+	text-align: center;
+	font-size: 3.5em;
+	margin-bottom: 5%;
+	padding-top: 3%;
+	color: #F29752;
+}
+
+.BY-dinner h3, h2{
+	color: #F29752;
+	font-family: 'Parisienne', cursive;
+}
+
+.BY-dinner .text{
+	margin-top: -1.5%;
+}
+
+.BY-img{
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
