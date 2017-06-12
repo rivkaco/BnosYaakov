@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
    <html lang="en">
    <head>
@@ -34,8 +35,8 @@
                             <li><a  class ="BY-scrolling" href="by_landing.html">HOME</a></li>
 
                             <li><a class ="BY-scrolling" href="#abt-by">ABOUT </a></li>
-                            
-                            <li class="navLink four">
+
+                           <!--  <li class="navLink four">
                                     <div>
                                         <a href="#edu-by">EDUCATION</a>
                                         <div class="subMenu">
@@ -44,26 +45,15 @@
                                             <a class = "BY-sub" href="by_testimonials.html">Enriched Program</a>
                                         </div>
                                     </div>
-                                </li>
+                                </li> -->
 
-                            <!-- <div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <a href="#edu-by">Education</a>
-                                </button>
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                    <li><a class="dropdown-item" role="menuitem" tabindex="-1" href="#">Limudei Kodesh</a></li>
-                                    <li><a class="dropdown-item" role="menuitem" tabindex="-1" href="#">General Studies</a></li>
-                                    <li><a class="dropdown-item" role="menuitem" tabindex="-1" href="#">Enriched Program</a></li> 
-                                </div>
-                            </div> -->
-
-                            <!-- <li class="dropdown"><a  class ="BY-scrolling dropdown-toggle" id="drop1" href="#edu-by" role="button" data-toggle="dropdown" >EDUCATION<span class="caret"></span></a>
+                            <li class="dropdown"><a  class ="BY-scrolling dropdown-toggle" id="drop1" role="button" data-toggle="dropdown" >EDUCATION<span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                                              <li role="presentation"><a role="menuitem" tabindex="-1" href="">Limudei Kodesh</a></li>
-                                              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">General Studies</a></li>
-                                              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Enriched Program</a></li>   
+                                              <li role="presentation"><a role="menuitem" tabindex="-1" href="by_testimonials.html">Limudei Kodesh</a></li>
+                                              <li role="presentation"><a role="menuitem" tabindex="-1" href="by_testimonials.html">General Studies</a></li>
+                                              <li role="presentation"><a role="menuitem" tabindex="-1" href="by_testimonials.html">Enriched Program</a></li>   
                                         </ul>
-                            </li> -->
+                            </li>
 
                             <li><a  class ="BY-scrolling" href="by_testimonials.html">TESTIMONIALS</a></li>
 
@@ -78,7 +68,7 @@
 
                         </ul>
                     </div>
-                </div>
+                </div> 
             </nav>
                     <div class ="BY-fullLogo">
                         <img class= "BY-picturePromo" src= "./images/full_logo.png" alt="BnosYaakov">
@@ -124,19 +114,10 @@
                 </div>
             </div>
         </div>
-
     
-
         <div class="BY-testimonials" id="tes-by">
             <div class="container"> 
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                    <!-- Indicators -->
-                   <!--  <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarousel" data-slide-to="1"></li>
-                        <li data-target="#myCarousel" data-slide-to="2"></li>
-                    </ol> -->
-                    <!-- Wrapper for slides -->
                     <div class="carousel-inner">
                         <div class="item active">
                         <div class="row">
@@ -213,7 +194,7 @@
 
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-        <script type="text/javascript">
+        <!-- <script type="text/javascript">
 
             $('.navLink div .subMenu').css({'display': 'none'})
                 $('.navLink div').hover(
@@ -227,9 +208,54 @@
                     }
                 );
         </script>
+ -->
+
+       <!--  <script type="text/javascript">
+            (function($) { // Begin jQuery
+  $(function() { // DOM ready
+    // If a link has a dropdown, add sub menu toggle.
+    $('nav ul li a:not(:only-child)').click(function(e) {
+      $(this).siblings('.nav-dropdown').toggle();
+      // Close one dropdown when selecting another
+      $('.nav-dropdown').not($(this).siblings()).hide();
+      e.stopPropagation();
+    });
+    // Clicking away from dropdown will remove the dropdown class
+    $('html').click(function() {
+      $('.nav-dropdown').hide();
+    });
+    // Toggle open and close nav styles on click
+    $('#nav-toggle').click(function() {
+      $('nav ul').slideToggle();
+    });
+    // Hamburger to X toggle
+    $('#nav-toggle').on('click', function() {
+      this.classList.toggle('active');
+    });
+  }); // end DOM ready
+})(jQuery); // end jQuery
+        </script> -->
+
 
    	</body>
 	</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
