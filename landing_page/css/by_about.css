@@ -16,38 +16,11 @@ body{
 
 /******************************************** navbar *******************************************************************/
 
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color: #F29752;
-}
-
-.dropdown #drop1:hover{
-	background: rgba(67,124,144, 0.4);
-	color: #F29752;
-}
-
-.open #drop1{
-	background: rgba(67,124,144, 0.4);
-	color: #F29752;
-}
-
-
-.dropdown-menu > li > a:hover{
-    background-color: rgba(67,124,144, 0.3);
-    color: #F29752;
-}
-
-.dropdown-menu {
-background: rgba(67,124,144, 0.8);
-color: #F29752;
-}
-
-.navbar.navbar-default li a {
+.navbar a {
     color: white;
 }
 
-.navbar.navbar-default li a:hover {
-	color: #F29752;
-}
+
 .BY-logo {
 	width: 25px;
 }
@@ -57,47 +30,51 @@ color: #F29752;
 	font-family: 'Roboto';
 	color: white;
 	background: rgba(67,124,144, 0.6);
-/*	font-size: 18px;
-*/}
+}
+
+
 
 .nav .dropdown-toggle .caret { 
 	display:none; 
 }
 
-img.BY-picturePromo:empty
-{
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	-moz-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	-o-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-}
 
-img.BY-picturePromo
-{
-	width: 45vw;
-	position: absolute;
-	max-width: 80%;
-	top: 10%;
-	left: 10%;
-	/*border-radius: 3px;
-	box-shadow: 0 3px 6px rgba(0,0,0,0.9);*/
+
+.navbar-toggle .icon-bar {
+    background-color: #fff;
 }
 
 
-@media screen and (orientation: portrait) {
-  img.BY-picturePromo { max-width: 90%; }
+.navbar.navbar-static.navbar-fixed-top li > a:hover {
+    color: #F29752;
+    background-color: transparent;
 }
 
-@media screen and (orientation: landscape) {
-  img.BY-picturePromo { max-height: 90%; }
+.dropdown #drop1:hover{
+	background: rgba(67,124,144, 0.4);
+	color: #F29752;
 }
 
-.BY-photo{
-	height: 300px;
+.open #drop1{
+	background: rgba(67,124,144, 0.4);
 }
+
+.dropdown-menu > li > a:hover{
+    background-color: rgba(67,124,144, 0.3);
+    color: #F29752;
+}
+
+
+.dropdown-menu > li > a{
+    background-color: rgba(67,124,144, 0.3);
+    color: white;
+}
+
+.dropdown-menu {
+background: rgba(67,124,144, 0.8);
+color: #F29752;
+}
+
 
 /******************************************** end of navbar *******************************************************************/
 
@@ -182,6 +159,19 @@ img.BY-picturePromo
 }
 
 
+
+.BY-contact{
+	background: #dfdcdc;
+	padding: 0.8%;
+	padding-left: 8%;
+	color: #437C90;
+	font-size: 1em;
+}
+
+
+.BY-contact h4{
+	font-size: 1.1em;
+}
 /*
 .longest-BY {
 	height: 620px;

@@ -1,3 +1,5 @@
+
+
 /*
 #F29752 orange
 #F7ECEE almost white
@@ -9,14 +11,9 @@
 @font-face{font-family:'FontAwesome';src:url('font/fontawesome-webfont.eot?v=4.0.1');src:url('font/fontawesome-webfont.eot?#iefix&v=4.0.1') format('embedded-opentype'),url('font/fontawesome-webfont.woff?v=4.0.1') format('woff'),url('font/fontawesome-webfont.ttf?v=4.0.1') format('truetype'),url('font/fontawesome-webfont.svg?v=4.0.1#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}
 
 body{
-	padding: 10%;
 	font-family: 'Roboto', Arial;
-	text-align: justify;
-	/*color: #261F54;*/
-	color: #006064;
-	/*background: #FAF0E6;*/
-	background: #F5FFFA;
-
+	/*text-align: justify;*/
+	color: white; 
 }
 
 /******************************************** navbar *******************************************************************/
@@ -81,55 +78,91 @@ color: #F29752;
 }
 
 
-/******************************************** end of navbar ******************************************************************
-
-.BY-general{
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-}
+/******************************************** end of navbar *******************************************************************/
 
 
-
-
-.BY-general h4{
-/*	font-style: italic;
-	/*margin-bottom: 5%;
-	padding-top: 3%;*/
-
-/*}*/
-
-
-.BY-general .title-edu{
-	font-family: 'Parisienne', cursive;
-	text-align: center;
-	font-size: 3.5em;
-	margin-bottom: 5%;
-	padding-top: 3%;
-	color: #F29752;
-}
-
-.BY-general h2{
-			color: #F29752;
-			text-align: center;
-			font-family: 'Parisienne', cursive;
-
-
-
-
-}
-
-@media screen and (min-width: 800px) {
-.vertical-align {
-    display: flex;
-    align-items: center;
-}
-}
-
-.BY-img{
+/*.BY-about {
 	width: 100%;
+}*/
+
+.colour1 {
+	background-color: #437C90;
+	background-color: rgba(67,124,144, 0.8);
+	/*background-image: url('../images/back2.png');
+	background-size: cover;
+	background-repeat: no-repeat;*/
+}
+.colour2 {
+	background-color: #F29752;
+	background-color: rgba(242,151,82,0.8);
+	/*background-image: url('../images/back.png');*/
+}
+
+.one-mission {
+	/*border: 1px solid white;*/
+	padding: 1px;
+	padding-bottom: 3%;
+	/*height: 500px;*/
+}
+.whole-mission {
+	width: 90%;
+	margin-left: 5%;
+}
+.line-BY{
+	border: 10px solid white;
+	margin-bottom: 60px;
+	margin-top: 80px;
+}
+
+.picture-BY {
+	border: solid white 15px;
+	display: inline-block;
+	width: 300px;
+	float: left;
+	
 }
 
 
+.mission-main{
+	display: inline-block;
+	vertical-align: bottom;
+	margin-left: 5%;
+	width: 65%;
+}
+.to-mission{
+	font-size: 6vh;
+	font-weight: 600;
+	/*align-content: flex-end;*/
+	/*line-height: 100px;*/
+	font-family: 'Parisienne', cursive;
+}
+.text-mission{
+	font-size: 3.5vh;
+}
+
+@media only screen and (max-width: 965px) {
+    /*.one-mission {
+        height: 600px;
+    }*/
+    .text-mission{
+	font-size: 24px;
+	}
+}
+
+@media only screen and (max-width: 965px) {
+    /*.longest-BY {
+        height: 760px;
+    }*/
+    .text-mission{
+	font-size: 3vh;
+	}
+}
 
 
+/*
+.longest-BY {
+	height: 620px;
+}
+.endorsement-ltr{
+	height: 500px;
+}*/
