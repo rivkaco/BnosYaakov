@@ -1,5 +1,5 @@
 body{
-    padding: 10%;
+    padding-top: 10%;
     font-family: 'Roboto', Arial;
     text-align: justify;
     /*color: #261F54;*/
@@ -121,5 +121,18 @@ color: #F29752;
 }
 
 
+
+.BY-contact{
+    background: #dfdcdc;
+    padding: 0.8%;
+    padding-left: 8%;
+    color: #437C90;
+    font-size: 1em;
+}
+
+
+.BY-contact h4{
+    font-size: 1.1em;
+}
 
 
