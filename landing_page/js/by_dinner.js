@@ -10,10 +10,12 @@ $(function() {
 });
 $(function() {
     $('#mybook').booklet({
+    	shadows: false,
+
         width:  '90%',
         height: 600,
         closed: true,
-        autoCenter: true
+        autoCenter: true,
     });
 });
 
