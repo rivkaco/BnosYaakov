@@ -153,6 +153,15 @@ color: #F29752;
 	float: right;
 }
 
+.dedication-BY{
+	text-align: left;
+/*	float: bottom;
+*/	float: left;
+margin-top: 50%;
+/*    bottom: 0;
+*/    
+  }
+
 
 
 

@@ -32,7 +32,8 @@ body{
 
 .seethrough{ 
 	border: none;
-	font-family: 'Roboto';
+font-family: 'Montserrat', sans-serif;
+
 	color: white;
 	background: rgba(67,124,144, 0.6);
 }
@@ -110,12 +111,12 @@ color: #F29752;
 
 .outside-body{
 	padding: 10%;
-	font-family: 'Roboto', Arial;
-	text-align: justify;
+font-family: 'Montserrat', sans-serif;	
+text-align: justify;
 
 }
 .BY-testimonials .title{
-	font-family: 'Parisienne', cursive;
+font-family: 'Montserrat', sans-serif;
 	text-align: center;
 	font-size: 3.5em;
 	margin-bottom: 5%;
