@@ -81,23 +81,14 @@ color: #F29752;
 }
 
 
-/******************************************** end of navbar ******************************************************************
+/******************************************** end of navbar ******************************************************************/
 
-.BY-general{
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
+.BY-general.content{
+	/*background-size: cover;*/
+	/*background-repeat: no-repeat;*/
+	/*background-position: center;*/
+	padding-bottom: 5%;
 }
-
-
-
-
-.BY-general h4{
-/*	font-style: italic;
-	/*margin-bottom: 5%;
-	padding-top: 3%;*/
-
-/*}*/
 
 
 .BY-general .title-edu{
@@ -110,13 +101,9 @@ color: #F29752;
 }
 
 .BY-general h2{
-			color: #F29752;
-			text-align: center;
-			font-family: 'Parisienne', cursive;
-
-
-
-
+	color: #F29752;
+	text-align: center;
+	font-family: 'Parisienne', cursive;
 }
 
 @media screen and (min-width: 800px) {
