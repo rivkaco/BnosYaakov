@@ -182,28 +182,27 @@ hr{
 	background: white;
 	text-align: center;
 	font-size: 18px;
-	color: rgba(67,124,144, 0.8);
-/*	color: rgba(242,151,82,0.8);
-*/}
+	/*color: rgba(67,124,144, 0.8);*/
+	color: rgba(242,151,82,0.8);
+}
 
 .BY-education section{
 	padding: 3%;
 }
 
 .BY-education p{
-	margin-bottom: 3%;
+	margin-bottom: 5%;
 }
-
 
 .BY-education .education .button{
 	padding: 8px;
-	background-color: rgba(67,124,144, 0.8);
+	background-color: rgba(242,151,82,0.8);
 	color: white;
 	border-radius: 10px;
 }
 
 .BY-education .education-icons{
-	font-size: 90px;
+	font-size: 100px;
 color: rgba(242,151,82,0.8); 
 
 	/*color: rgba(242,151,82,0.8);*/
