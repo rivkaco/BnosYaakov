@@ -156,7 +156,7 @@ img.BY-picturePromo
 }
 
 .BY-about .missionStatement {
-	font-family: 'Roboto';
+	font-family: 'Parisienne';
 	font-weight: 400;
 	font-size: 3em;
 }
@@ -219,6 +219,8 @@ color: rgba(242,151,82,0.8);
 	font-family: 'Roboto';
 	color: rgb(255, 255, 255);
 }
+
+
 
 .BY-testimonials h3{
 	font-size: 150%;
@@ -368,4 +370,8 @@ color: rgba(242,151,82,0.8);
    -ms-transform: scale(1);
    transform: scale(1);
  }
+
+ /*.font-BY {
+
+ }*/
 
