@@ -90,9 +90,6 @@ color: #F29752;
 	padding-bottom: 5%;
 }
 
-/*.BY-general.content .hidden{
-	visibility: none;
-}*/
 
 .BY-general .title-edu{
 	font-family: 'Parisienne', cursive;
@@ -134,28 +131,6 @@ color: #F29752;
 .BY-contact h4{
 	font-size: 1.1em;
 }
-
-/*.hidden_row{
-	visibility: hidden;
-}
-*/
-/*.change{
-	color: red;
-}*/
-
-/*.words {
-   display: none;
-}*/
-
-/*.BY-section:hover .hidden_info { 
-   display: block;
-}
-*/
-
-
-
-
-
 
 
 

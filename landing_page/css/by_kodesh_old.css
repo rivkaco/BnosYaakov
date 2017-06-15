@@ -1,0 +1,138 @@
+body{
+    padding-top: 10%;
+    font-family: 'Roboto', Arial;
+    text-align: justify;
+    /*color: #261F54;*/
+    color: #006064;
+    /*background: #FAF0E6;*/
+    background: #F5FFFA;
+
+}
+
+/******************************************** navbar *******************************************************************/
+.navbar a {
+    color: white;
+}
+
+
+.BY-logo {
+    width: 25px;
+}
+
+.seethrough{ 
+    border: none;
+    font-family: 'Roboto';
+    color: white;
+    background: rgba(67,124,144, 0.6);
+}
+
+
+
+.nav .dropdown-toggle .caret { 
+    display:none; 
+}
+
+
+
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+
+.navbar.navbar-static.navbar-fixed-top li > a:hover {
+    color: #F29752;
+    background-color: transparent;
+}
+
+.dropdown #drop1:hover{
+    background: rgba(67,124,144, 0.4);
+    color: #F29752;
+}
+
+.open #drop1{
+    background: rgba(67,124,144, 0.4);
+}
+
+
+.dropdown-menu > li > a:hover{
+    background-color: rgba(67,124,144, 0.3);
+    color: #F29752;
+}
+
+
+.dropdown-menu > li > a{
+    background-color: rgba(67,124,144, 0.3);
+    color: white;
+}
+
+.dropdown-menu {
+background: rgba(67,124,144, 0.8);
+color: #F29752;
+}
+
+
+/******************************************** end of navbar ******************************************************************
+
+.BY-general{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+.BY-general h4{
+/*  font-style: italic;
+    /*margin-bottom: 5%;
+    padding-top: 3%;*/
+
+/*}*/
+
+
+.BY-general .title-edu{
+    font-family: 'Parisienne', cursive;
+    text-align: center;
+    font-size: 3.5em;
+    margin-bottom: 5%;
+    padding-top: 3%;
+    color: #F29752;
+}
+
+.BY-general h2{
+            color: #F29752;
+            text-align: center;
+            font-family: 'Parisienne', cursive;
+
+
+
+
+}
+
+@media screen and (min-width: 800px) {
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+}
+
+.BY-img{
+    width: 100%;
+}
+
+
+
+.BY-contact{
+    background: #dfdcdc;
+    padding: 0.8%;
+    padding-left: 8%;
+    color: #437C90;
+    font-size: 1em;
+}
+
+
+.BY-contact h4{
+    font-size: 1.1em;
+}
+
+
