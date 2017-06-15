@@ -1,21 +1,24 @@
-$(function() {
-	//single book
-	$('#mybook').booklet();
+// $(function() {
+// 	//single book
+// 	$('#mybook').booklet();
 
-	//multiple books with ID's
-	$('#mybook1, #mybook2').booklet();
+// 	//multiple books with ID's
+// 	$('#mybook1, #mybook2').booklet();
 
-	//multiple books with a class
-	$('.mycustombooks').booklet();
-});
+// 	//multiple books with a class
+// 	$('.mycustombooks').booklet();
+// });
 $(function() {
     $('#mybook').booklet({
-        width:  '90%',
-        height: 600,
+    	pagePadding: 0,
+    	shadows: false,
+        width:  '80%',
+        height: 500,
         closed: true,
         autoCenter: true
     });
 });
+
 
 
 // if ($(window).width() > 1200) {
